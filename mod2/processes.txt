@@ -1,0 +1,201 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.2 167776  4820 ?        Ss   18:29   0:25 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18:29   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   18:29   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   18:29   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   18:29   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   18:29   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   18:29   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I<   18:29   0:00 [mm_percpu_wq]
+root          12  0.0  0.0      0     0 ?        I    18:29   0:00 [rcu_tasks_kthread]
+root          13  0.0  0.0      0     0 ?        I    18:29   0:00 [rcu_tasks_rude_kthread]
+root          14  0.0  0.0      0     0 ?        I    18:29   0:00 [rcu_tasks_trace_kthread]
+root          15  0.0  0.0      0     0 ?        R    18:29   0:01 [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    18:29   0:10 [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    18:29   0:00 [migration/0]
+root          18  0.0  0.0      0     0 ?        S    18:29   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    18:29   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    18:29   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    18:29   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    18:29   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    18:29   0:05 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   18:29   0:00 [kworker/1:0H-kblockd]
+root          26  0.0  0.0      0     0 ?        S    18:29   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   18:29   0:00 [inet_frag_wq]
+root          29  0.0  0.0      0     0 ?        S    18:29   0:00 [kauditd]
+root          30  0.0  0.0      0     0 ?        S    18:29   0:00 [khungtaskd]
+root          31  0.0  0.0      0     0 ?        S    18:29   0:00 [oom_reaper]
+root          33  0.0  0.0      0     0 ?        I<   18:29   0:00 [writeback]
+root          34  0.0  0.0      0     0 ?        S    18:29   0:05 [kcompactd0]
+root          35  0.0  0.0      0     0 ?        SN   18:29   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   18:29   0:00 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   18:29   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   18:29   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   18:29   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   18:29   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   18:29   0:00 [ata_sff]
+root          42  0.0  0.0      0     0 ?        I<   18:29   0:00 [md]
+root          43  0.0  0.0      0     0 ?        I<   18:29   0:00 [md_bitmap]
+root          44  0.0  0.0      0     0 ?        I<   18:29   0:00 [edac-poller]
+root          45  0.0  0.0      0     0 ?        I<   18:29   0:00 [devfreq_wq]
+root          46  0.0  0.0      0     0 ?        S    18:29   0:00 [watchdogd]
+root          48  0.0  0.0      0     0 ?        S    18:29   0:14 [kswapd0]
+root          49  0.0  0.0      0     0 ?        S    18:29   0:00 [ecryptfs-kthread]
+root          51  0.0  0.0      0     0 ?        I<   18:29   0:00 [kthrotld]
+root          52  0.0  0.0      0     0 ?        I<   18:29   0:00 [acpi_thermal_pm]
+root          53  0.0  0.0      0     0 ?        S    18:29   0:00 [scsi_eh_0]
+root          54  0.0  0.0      0     0 ?        I<   18:29   0:00 [scsi_tmf_0]
+root          55  0.0  0.0      0     0 ?        S    18:29   0:00 [scsi_eh_1]
+root          56  0.0  0.0      0     0 ?        I<   18:29   0:00 [scsi_tmf_1]
+root          60  0.0  0.0      0     0 ?        I<   18:29   0:00 [mld]
+root          61  0.0  0.0      0     0 ?        I<   18:29   0:00 [ipv6_addrconf]
+root          69  0.0  0.0      0     0 ?        I<   18:29   0:00 [kstrp]
+root          71  0.0  0.0      0     0 ?        I<   18:29   0:00 [kworker/u5:0]
+root          75  0.0  0.0      0     0 ?        I<   18:29   0:00 [charger_manager]
+root         116  0.0  0.0      0     0 ?        S    18:29   0:00 [scsi_eh_2]
+root         117  0.0  0.0      0     0 ?        I<   18:29   0:00 [scsi_tmf_2]
+root         120  0.0  0.0      0     0 ?        I<   18:29   0:00 [cryptd]
+root         125  0.0  0.0      0     0 ?        S    18:29   0:00 [irq/18-vmwgfx]
+root         126  0.0  0.0      0     0 ?        I<   18:29   0:00 [ttm]
+root         215  0.0  0.0      0     0 ?        S    18:29   0:02 [jbd2/sda1-8]
+root         216  0.0  0.0      0     0 ?        I<   18:29   0:00 [ext4-rsv-conver]
+root         262  0.0  0.1  63008  2304 ?        S<s  18:29   0:02 /lib/systemd/systemd-journald
+root         308  0.0  0.0  27348  1524 ?        Ss   18:29   0:01 /lib/systemd/systemd-udevd
+systemd+     335  0.0  0.1  25668  2276 ?        Ss   18:29   0:01 /lib/systemd/systemd-resolved
+root         351  0.0  0.0   8584  1084 ?        Ss   18:29   0:01 /usr/sbin/haveged --Foreground --verbose=1
+root         382  0.0  0.1 240124  2116 ?        Ssl  18:29   0:00 /usr/libexec/accounts-daemon
+root         383  0.0  0.0   2816  1024 ?        Ss   18:29   0:01 /usr/sbin/acpid
+avahi        386  0.0  0.0   7628  1408 ?        Ss   18:29   0:00 avahi-daemon: running [laptop.local]
+root         387  0.0  0.0   9504  1024 ?        Ss   18:29   0:00 /usr/sbin/cron -f -P
+message+     388  0.0  0.1  10140  3072 ?        Ss   18:29   0:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         391  0.0  0.1 261612  3940 ?        Ssl  18:29   0:01 /usr/sbin/NetworkManager --no-daemon
+root         401  0.0  0.0  82700  1664 ?        Ssl  18:29   0:01 /usr/sbin/irqbalance --foreground
+root         404  0.0  0.0  35448  1920 ?        Ss   18:29   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         405  0.0  0.1 242836  2816 ?        Ssl  18:29   0:00 /usr/libexec/polkitd --no-debug
+syslog       408  0.0  0.0 222404  1408 ?        Ssl  18:29   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         425  0.0  0.0  23728  1664 ?        Ss   18:29   0:01 /lib/systemd/systemd-logind
+root         431  0.0  0.1 392936  2504 ?        Ssl  18:29   0:00 /usr/libexec/udisks2/udisksd
+root         436  0.0  0.0  16500  1408 ?        Ss   18:29   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        461  0.0  0.0   7444   772 ?        S    18:29   0:00 avahi-daemon: chroot helper
+root         487  0.0  0.0 317952  1988 ?        Ssl  18:29   0:00 /usr/sbin/ModemManager
+root         508  0.0  0.0 112468  1920 ?        Ssl  18:29   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         529  0.0  0.0  72624  1920 ?        Ss   18:29   0:00 /usr/sbin/cupsd -l
+root         582  0.0  0.1 172628  2176 ?        Ssl  18:29   0:00 /usr/sbin/cups-browsed
+kernoops     596  0.0  0.0  13088  1044 ?        Ss   18:29   0:00 /usr/sbin/kerneloops --test
+kernoops     604  0.0  0.0  13088   928 ?        Ss   18:29   0:00 /usr/sbin/kerneloops
+root        1462  0.0  0.0 284220  1152 ?        Sl   18:30   0:12 /usr/bin/VBoxDRMClient
+root        1465  0.0  0.0 355684  1536 ?        Sl   18:30   0:05 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        1907  0.0  0.1 140612  2048 ?        Ssl  18:30   0:00 /usr/bin/sddm
+root        1912  3.6  2.3 351272 47128 tty1     Ssl+ 18:30  11:35 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{5b7957a0-5137-412e-b77d-665b1ea6fc55} -background none -noreset -displayfd 17 -seat seat0 vt1
+rtkit       1958  0.0  0.0 154004  1408 ?        SNsl 18:30   0:00 /usr/libexec/rtkit-daemon
+root        1978  0.0  0.1  64124  2048 ?        S    18:30   0:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth81262a4c-a130-4575-89ed-df5ece28765f --id 1 --start /usr/bin/startlxqt --user minty
+minty       1980  0.0  0.1  17324  2176 ?        Ss   18:30   0:00 /lib/systemd/systemd --user
+minty       1981  0.0  0.0 103808   724 ?        S    18:30   0:00 (sd-pam)
+minty       1987  0.0  0.0  39572  1408 ?        S<sl 18:30   0:00 /usr/bin/pipewire
+minty       1988  0.0  0.0  23464  1664 ?        Ssl  18:30   0:00 /usr/bin/pipewire-media-session
+minty       1989  0.4  0.1 1149876 2560 ?        S<sl 18:30   1:17 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+minty       1992  0.0  0.1   9136  2236 ?        Ss   18:30   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+minty       1994  0.0  0.1 240832  2472 ?        Sl   18:30   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+minty       1997  0.0  0.1 335824  3624 ?        Sl   18:30   0:08 lxqt-session
+minty       2047  0.0  0.0  20068   772 ?        S    18:30   0:00 /usr/bin/VBoxClient --clipboard
+minty       2049  0.0  0.0 218620  1492 ?        Sl   18:30   0:00 /usr/bin/VBoxClient --clipboard
+minty       2062  0.0  0.0  20068   768 ?        S    18:30   0:00 /usr/bin/VBoxClient --seamless
+minty       2063  0.1  0.0 218356  1408 ?        Sl   18:30   0:24 /usr/bin/VBoxClient --seamless
+minty       2070  0.0  0.0  20068   668 ?        S    18:30   0:00 /usr/bin/VBoxClient --draganddrop
+minty       2071  0.3  0.0 218872  1180 ?        Sl   18:30   1:05 /usr/bin/VBoxClient --draganddrop
+minty       2079  0.0  0.0  20068   640 ?        S    18:30   0:00 /usr/bin/VBoxClient --vmsvga-session
+minty       2080  0.0  0.0 218328  1412 ?        Sl   18:30   0:06 /usr/bin/VBoxClient --vmsvga-session
+minty       2085  0.0  0.0   7976  1008 ?        Ss   18:30   0:00 /usr/bin/ssh-agent /usr/bin/startlxqt
+minty       2093  0.0  0.7 380660 14188 ?        Sl   18:30   0:10 /usr/bin/openbox
+minty       2105  0.0  0.1 309464  2432 ?        Sl   18:30   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+minty       2107  0.0  0.0 237160  1664 ?        Sl   18:30   0:00 /usr/libexec/geoclue-2.0/demos/agent
+minty       2110  0.1  1.1 1348872 22412 ?       Sl   18:30   0:24 /usr/bin/pcmanfm-qt --desktop --profile=lxqt
+minty       2112  0.0  0.1 335012  3864 ?        Sl   18:30   0:05 /usr/bin/lxqt-globalkeysd
+minty       2116  0.0  0.2 430076  5092 ?        Sl   18:30   0:05 /usr/bin/lxqt-notificationd
+minty       2119  0.0  0.0   8432  1664 ?        S    18:30   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 13 --address=unix:path=/run/user/1000/at-spi/bus_0
+minty       2120  0.1  2.0 1028000 41416 ?       Sl   18:30   0:28 /usr/bin/lxqt-panel
+minty       2121  0.0  0.2 578316  4596 ?        Sl   18:30   0:05 /usr/bin/lxqt-policykit-agent
+minty       2124  0.0  0.1 222940  3200 ?        Ssl  18:30   0:04 /usr/lib/x86_64-linux-gnu/libexec/kf5/kscreen_backend_launcher
+minty       2126  0.0  0.1 240652  2176 ?        Ssl  18:30   0:00 /usr/libexec/gvfsd
+minty       2127  0.0  0.1 428500  3928 ?        Sl   18:30   0:06 /usr/bin/lxqt-runner
+minty       2130  0.0  0.0  12228  1792 ?        S    18:30   0:09 /usr/bin/xscreensaver -no-splash
+minty       2136  0.0  0.0 380892  1920 ?        Sl   18:30   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+minty       2140  0.0  0.1  54728  3716 ?        S    18:30   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+minty       2151  0.0  0.0   6180  1152 ?        SN   18:30   0:00 xscreensaver-systemd
+minty       2165  0.0  0.0   2892   768 ?        S    18:30   0:00 /bin/sh /usr/libexec/lubuntu-update-notifier/lubuntu-upg-notifier.sh
+minty       2214  0.0  0.1 314908  2688 ?        Sl   18:30   0:00 /usr/libexec/gvfsd-trash --spawner :1.11 /org/gtk/gvfs/exec_spaw/0
+minty       2219  0.0  0.1 389720  2816 ?        Ssl  18:30   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+minty       2224  0.0  0.1 236640  2048 ?        Ssl  18:30   0:00 /usr/libexec/gvfs-goa-volume-monitor
+minty       2228  0.0  0.1 315216  2048 ?        Ssl  18:30   0:01 /usr/libexec/gvfs-afc-volume-monitor
+minty       2233  0.0  0.0 236464  1920 ?        Ssl  18:30   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+minty       2237  0.0  0.0 237420  1920 ?        Ssl  18:30   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        2248  0.0  0.1 242352  3328 ?        Ssl  18:30   0:07 /usr/libexec/upowerd
+minty       2275  0.0  0.2 503220  5812 ?        Sl   18:30   0:07 /usr/bin/lxqt-powermanagement
+minty       2277  0.0  0.2 271200  5376 ?        Sl   18:30   0:08 /usr/bin/qlipper
+minty       2279  0.0  0.1 271664  3832 ?        Sl   18:30   0:05 /usr/bin/nm-tray
+minty       2292  0.0  0.0   8380   896 ?        S    18:30   0:00 sleep 86400
+minty       2307  0.3  0.9 438844 18336 ?        Sl   18:31   0:57 qterminal
+minty       2310  0.0  0.2  12640  4096 pts/0    Ss   18:31   0:00 /bin/bash
+minty       2322 17.1 13.6 12367316 273416 ?     Sl   18:32  53:28 /snap/firefox/2987/usr/lib/firefox/firefox
+minty       2338  0.0  0.1 463392  2560 ?        Ssl  18:32   0:00 /usr/libexec/xdg-document-portal
+minty       2341  0.0  0.0 236156  1664 ?        Ssl  18:32   0:00 /usr/libexec/xdg-permission-store
+root        2347  0.0  0.0   2796  1024 ?        Ss   18:32   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+minty       2448  0.0  0.1 476412  3456 ?        Ssl  18:32   0:01 /usr/libexec/xdg-desktop-portal
+minty       2454  0.0  0.1 268720  3164 ?        Ssl  18:32   0:05 /usr/lib/x86_64-linux-gnu/libexec/xdg-desktop-portal-kde
+minty       2460  0.0  0.0 240636  1792 ?        Sl   18:32   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+minty       2491  0.0  0.3 211024  6656 ?        Sl   18:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 28994 -prefMapSize 233096 -appDir /snap/firefox/2987/usr/lib/firefox/browser {a978c261-a9da-43b0-b763-6e025cd56134} 2322 true socket
+minty       2508  0.1  2.5 2458828 51688 ?       Sl   18:32   0:27 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 29135 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {56b73424-9ccb-4089-a8b8-bdd301cbe8d9} 2322 true tab
+minty       2543  0.0  0.3 1238304 7464 ?        Sl   18:32   0:04 /usr/bin/snap userd
+minty       2640  0.0  1.2 2426464 24372 ?       Sl   18:32   0:03 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 34755 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {451274f7-7128-40ce-ac8c-3bbbbbb61ff6} 2322 true tab
+minty       3130  2.7  0.5 350808 10836 ?        Sl   18:41   8:12 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 35052 -prefMapSize 233096 -appDir /snap/firefox/2987/usr/lib/firefox/browser {93a54c20-7f70-4b80-929d-57a43867e42f} 2322 true rdd
+minty       3132  0.4  0.3 333432  6456 ?        Sl   18:41   1:18 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 35052 -prefMapSize 233096 -appDir /snap/firefox/2987/usr/lib/firefox/browser {87e4fea1-5826-49a4-897c-d83129956dd0} 2322 true utility
+root        3914  0.0  0.1 298384  3556 ?        Ssl  18:51   0:00 /usr/libexec/packagekitd
+root        6771  0.0  0.0  15436  1280 ?        Ss   19:32   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+minty       7276  0.5  5.5 2621956 112128 ?      Sl   19:53   1:11 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 78 -isForBrowser -prefsLen 29821 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {8fa9fab5-1124-4a4c-b966-cf055c16f978} 2322 true tab
+minty       7632  0.0  0.0 163012  1920 ?        Ssl  20:51   0:00 /usr/libexec/gvfsd-metadata
+root        8292  0.0  0.1 438744  2988 ?        Ssl  22:06   0:03 /usr/libexec/fwupd/fwupd
+root        8318  0.0  0.0  84364  1156 ?        Ss   22:07   0:00 gpg-agent --homedir /var/lib/fwupd/gnupg --use-standard-socket --daemon
+minty       8362 22.7  6.0 2829756 120588 ?      Sl   22:08  21:40 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 89 -isForBrowser -prefsLen 29952 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {cf469460-dd11-4e06-884f-465d987dd4c0} 2322 true tab
+minty       8478  0.2  2.1 2441356 42656 ?       Sl   22:09   0:13 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 92 -isForBrowser -prefsLen 29952 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e3545667-6687-4781-8b4f-f70eb9f59915} 2322 true tab
+minty       8664  0.3  4.5 2506160 91772 ?       Sl   22:33   0:13 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 93 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {4334c146-04fc-47a1-bffc-c193f3e85171} 2322 true tab
+minty       8990  0.9  5.8 2575804 118236 ?      Sl   23:09   0:18 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 96 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {8ce0c8ce-67f5-4258-a100-ffde92cd120e} 2322 true tab
+minty       9059  2.0  5.8 1178663048 118200 ?   Sl   23:13   0:37 /usr/share/code/code --unity-launch
+minty       9062  0.0  0.2 33777792 4608 ?       S    23:13   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+minty       9063  0.0  0.3 33777784 6272 ?       S    23:13   0:00 /usr/share/code/code --type=zygote
+minty       9065  0.0  0.1 33777808 3500 ?       S    23:13   0:00 /usr/share/code/code --type=zygote
+minty       9079  0.0  0.1 33601528 3268 ?       Sl   23:13   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/minty/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=097da7b8-58eb-4151-b1f6-d47edce657e9&iid=097da7b8-58eb-4151-b1f6-d47edce657e9&sid=097da7b8-58eb-4151-b1f6-d47edce657e9 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.86.2 --annotation=lsb-release=Ubuntu 22.04.4 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=27.2.3 --initial-client-fd=47 --shared-client-connection
+minty       9092  1.4  1.6 34125300 32776 ?      Sl   23:13   0:25 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+minty       9102  0.3  1.1 33828056 23520 ?      Sl   23:13   0:05 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+minty       9122 10.4  9.1 1191037388 183896 ?   Sl   23:13   3:09 /usr/share/code/code --type=renderer --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-US --num-raster-threads=1 --renderer-client-id=4 --time-ticks-at-unix-epoch=-1709299749806487 --launch-time-ticks=17067083678 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:046caad8-46b6-42e5-a895-2239c36c8acf
+minty       9142  0.0  0.1 162752  3456 ?        Sl   23:13   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+minty       9158  2.1  2.6 1178405752 52180 ?    Sl   23:13   0:38 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+minty       9253  0.0  0.1 388780  2560 ?        Sl   23:14   0:00 /usr/libexec/gvfsd-network --spawner :1.11 /org/gtk/gvfs/exec_spaw/1
+minty       9275  0.0  0.1 316832  2944 ?        Sl   23:14   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.11 /org/gtk/gvfs/exec_spaw/3
+minty       9301  0.0  0.1 156836  2560 ?        Ssl  23:14   0:00 /usr/libexec/dconf-service
+minty       9306  0.1  1.9 1178422704 39528 ?    Sl   23:14   0:03 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+minty       9317  1.0  5.5 1178407460 110456 ?   Sl   23:14   0:18 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+root        9343  0.0  0.0      0     0 ?        I    23:14   0:00 [kworker/0:1-events]
+root        9344  0.0  0.0      0     0 ?        I    23:14   0:00 [kworker/1:0-events]
+minty       9368  0.4  1.6 1178422712 32644 ?    Sl   23:14   0:08 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=9079 --enable-crash-reporter=8dfa819d-c52c-432f-a298-1ea575bfbe5d,no_channel --user-data-dir=/home/minty/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3874982487626831336,352384983679336611,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+minty       9433  0.0  0.1  11624  3328 pts/2    Ss+  23:14   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+minty       9460  4.5  7.3 1180441132 146484 ?   Sl   23:15   1:18 /usr/share/code/code /home/minty/.vscode/extensions/ms-python.vscode-pylance-2024.2.2/dist/server.bundle.js --cancellationReceive=file:700f18e011f114e4e82579d6515c95d2cea11fa3bd --node-ipc --clientProcessId=9317
+root        9702  0.0  0.0      0     0 ?        I    23:16   0:01 [kworker/u4:2-events_power_efficient]
+root       10019  0.0  0.0      0     0 ?        I<   23:22   0:00 [kworker/1:1H-kblockd]
+root       10081  0.0  0.0      0     0 ?        I    23:27   0:00 [kworker/u4:0-events_unbound]
+root       10154  0.0  0.0      0     0 ?        I    23:33   0:00 [kworker/u4:3-ext4-rsv-conversion]
+root       10202  0.0  0.0      0     0 ?        I    23:33   0:00 [kworker/0:0-cgroup_destroy]
+root       10203  0.0  0.0      0     0 ?        I<   23:33   0:00 [kworker/0:1H-kblockd]
+root       10240  0.0  0.0      0     0 ?        I    23:33   0:00 [kworker/1:3-events]
+minty      10287  1.2  2.2 2412772 44312 ?       Sl   23:37   0:04 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 100 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {822805d9-7c8c-40a2-8591-b7c214809428} 2322 true tab
+minty      10306  0.0  1.3 2395980 27520 ?       Sl   23:37   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 101 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {3f8ce43b-198c-448e-83f8-8e49730a0b44} 2322 true tab
+minty      10311  0.0  1.3 2395984 27620 ?       Sl   23:37   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 102 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {589f0978-d6e0-4da6-ada7-e786494e8afc} 2322 true tab
+minty      10320  0.0  1.3 2395980 27492 ?       Sl   23:37   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 103 -isForBrowser -prefsLen 30039 -prefMapSize 233096 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e2055b9a-b709-42d5-bf57-1019921a512e} 2322 true tab
+root       10388  0.0  0.0   2892  1664 ?        Ss   23:39   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root       10392  0.0  0.0      0     0 ?        I    23:39   0:00 [kworker/1:1]
+root       10393  0.0  0.0   2892  1792 ?        S    23:39   0:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+root       10415  0.0  0.0      0     0 ?        I<   23:39   0:00 [kworker/1:2H-kblockd]
+root       10490  0.0  0.0      0     0 ?        I    23:39   0:00 [kworker/0:2]
+root       10868  0.0  0.0      0     0 ?        I    23:39   0:00 [kworker/u4:1-flush-8:0]
+root       10893  7.2  3.4 285168 69584 ?        Sl   23:39   0:17 /usr/bin/python3 /usr/bin/unattended-upgrade --download-only
+_apt       10909  2.8  0.5  24708 10240 ?        S    23:40   0:06 /usr/lib/apt/methods/http
+minty      10934  0.0  0.1  12712  3328 pts/0    R+   23:43   0:00 ps aux

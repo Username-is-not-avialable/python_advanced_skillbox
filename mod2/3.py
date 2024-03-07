@@ -10,7 +10,6 @@ def decrypt(s):
                     del s_list[i-1]
                     i -= 1
                 del s_list[i:i+2]
-                # i -= 1
             else:
                 del s_list[i]
         else:

@@ -1,6 +1,6 @@
 import sys
 
-lines = sys.stdin.readlines()[1:]
+
 def get_mean_size(lines):
     if not lines:
         print("Directory is empty")
@@ -10,4 +10,9 @@ def get_mean_size(lines):
     average_file_size = sum(sizes) / len(sizes)
     print(average_file_size)
 
-get_mean_size(lines)
+def main():
+    lines = sys.stdin.readlines()[1:]
+    get_mean_size(lines)
+
+if __name__ == "__main__":
+    main()

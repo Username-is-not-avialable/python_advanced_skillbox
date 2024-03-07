@@ -8,12 +8,13 @@ def main():
     def get_summary_rss(filepath):
         with open(filepath) as file:
             text = file.readlines()[1:]
-            sizes = [int(line.split()[4]) for line in text]
-            sum_size = sum(sizes) # in Byte
-            return convert_Bytes(sum_size)
+            sizes = [int(line.split()[5]) for line in text]
+            sum_size = sum(sizes) # in kB
+            print(sum_size)
+            return convert_kiB(sum_size)
 
-    def convert_Bytes(n): # 1kiB = 1.000B
-        PREFIXES = ["B","KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"]
+    def convert_kiB(n): # 1kiB = 1.000B
+        PREFIXES = ["KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"]
         digits_number = len(str(n))
         prefix_num = (digits_number - 1) // 3
         prefix = PREFIXES[prefix_num]

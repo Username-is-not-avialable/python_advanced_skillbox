@@ -13,7 +13,7 @@ def get_ending():
     phrase_ending = ending + weekdays[weekday]
     return phrase_ending
 @app.route('/hello_world/<name>')
-def hello_world(name):
+def hello_user(name):
     ending = get_ending()
     return f'Привет, {name}. Хорош{ending}!'
 

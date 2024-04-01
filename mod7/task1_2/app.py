@@ -3,7 +3,7 @@ from mod7.task1_2 import utils
 import logging
 import logging.config
 
-calculator_logger = logging.getLogger("calculator_logger")
+calc_logger = logging.getLogger("calc_logger")
 
 def show_list_of_commands() -> None:
     print("Доступные команды:\n"
@@ -22,7 +22,7 @@ def get_command_from_user() -> str:
 def process_command(command: str) -> tuple[float, float, str] | None:    
     command_split: [str] = command.split()
     if len(command_split) != 3:
-        calculator_logger.info(f"Неправильная команда. Выражение должно содержать 3 операнда, получено: {len(command_split)}")
+        calc_logger.info(f"Неправильная команда. Выражение должно содержать 3 операнда, получено: {len(command_split)}")
         return None
     number_1 = float(command_split[0])
     number_2 = float(command_split[2])
@@ -32,7 +32,7 @@ def process_command(command: str) -> tuple[float, float, str] | None:
 
 def get_result(command: tuple[float, float, str] | None) -> str:    
     if command is None:
-        calculator_logger.info("Введена некорректная команада")
+        calc_logger.info("Введена некорректная команада")
         return "Вы ввели не корректную строку, повторите попытку."
     number_1, number_2, operation = command    
     result: float = utils.calculate(number_1, number_2, operation)

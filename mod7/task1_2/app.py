@@ -14,7 +14,7 @@ def show_list_of_commands() -> None:
           "\"^\" - возведение в степень\n")
 
 
-def get_command_from_user() -> str:    
+def get_command_from_user() -> str:
     command: str = input("Введите выражение с пробелами: ")    
     return command
 
@@ -42,8 +42,39 @@ def get_result(command: tuple[float, float, str] | None) -> str:
 def give_result_to_user(result: str) -> None:    
     print(result)
 
-def configure_logger():
+def configure_logger(logger: logging.Logger):
+    formatter = logging.Formatter("%(levelname)s | %(name)s | %(asctime)s | %(lineno)d | %(message)s")
+    level_handler = CustomHandler(calc_logger)
+    level_handler.setFormatter(formatter)
+    logger.addHandler(level_handler)
     logging.basicConfig(level=logging.DEBUG, stream=sys.stdout, format="%(levelname)s | %(name)s | %(asctime)s | %(lineno)d | %(message)s")
+
+
+class CustomHandler(logging.Handler):
+    def __init__(self, loger_name: str, level: int, mode='a'):
+        super().__init__()
+        self.loger_name = loger_name
+        self.mode = mode
+        self.level = level
+
+    def emit(self, record: logging.LogRecord) -> None:
+        message = self.format(record)
+
+        match self.level:
+            case logging.DEBUG:
+                output_file: str = self.loger_name + '_debug.log'
+            case logging.INFO:
+                output_file: str = self.loger_name + '_info.log'
+            case logging.WARNING:
+                output_file: str = self.loger_name + '_warning.log'
+            case logging.ERROR:
+                output_file: str = self.loger_name + '_error.log'
+            case logging.CRITICAL:
+                output_file: str = self.loger_name + '_critical.log'
+
+        with open(output_file, mode=self.mode) as f:
+            f.write(message + '\n')
+
 
 if __name__ == '__main__':
     configure_logger()
